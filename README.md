@@ -9,8 +9,7 @@ Build an Intelligent pipeline that can segregate patient conversations from the 
 
 Please find the dataset at http://hck.re/pnsNa4. 
 
-## Description of attributes in dataset is given below.
-### Header -            Header Description
+### Description of attributes in dataset is given below.
 #### Source    -        Type of Social Media Post
 #### Host      -        Domain of Social Media Post
 #### Link      -        Complete URL of post
