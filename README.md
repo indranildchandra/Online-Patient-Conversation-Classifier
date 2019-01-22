@@ -10,13 +10,13 @@ Build an Intelligent pipeline that can segregate patient conversations from the 
 Please find the dataset at http://hck.re/pnsNa4. 
 
 ## Description of attributes in dataset is given below.
-### Header            Header Description
-Source            Type of Social Media Post
-Host              Domain of Social Media Post
-Link              Complete URL of post
-Date              Date of Post
-Time              time Stamp of Post in Eastern Time
-Time(GMT)         time Stamp of Post in GMT
-Title             Title of the Post
-TRANS_CONV_TEXT   Actual Text Conversation of the Post
-Patient_Tag       Patient Flag (1= Patient, 0=Non-Patient)
+### Header -            Header Description
+#### Source    -        Type of Social Media Post
+#### Host      -        Domain of Social Media Post
+#### Link      -        Complete URL of post
+#### Date      -        Date of Post
+#### Time      -        time Stamp of Post in Eastern Time
+#### Time(GMT) -        time Stamp of Post in GMT
+#### Title     -        Title of the Post
+#### TRANS_CONV_TEXT -  Actual Text Conversation of the Post
+#### Patient_Tag   -    Patient Flag (1= Patient, 0=Non-Patient)
