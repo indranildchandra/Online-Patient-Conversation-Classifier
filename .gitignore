@@ -1,0 +1,6 @@
+# Directories to be excluded
+src/.ipynb_checkpoints/
+src/__pycache__/
+src/runs/
+
+# Files to be excluded
