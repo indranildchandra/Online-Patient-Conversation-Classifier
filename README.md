@@ -5,9 +5,11 @@ Online-patient-conversation-classifier can segregate patient conversations from 
 # Approach
 	1. Embeddings Generation - Using Tensoflow's learn.preprocessing.VocabularyProcessor module to transform each
     word in the text corpus into a vector space (Word2Vec).
+    
 	2. Patient Conversation Classification - Convolutional Neural Network (CNN) -> uses an embedding layer, followed by a
     convolutional, max-pooling and softmax layer. Used 50% dropout and
     L2 regularization in Cross Entropy loss in to avoid over-fitting.
+    
 	3. Model Hyperparameters - 
 	        Dimensionality of character embedding - 128 ,
 	        Filter sizes - (3,4,5) ,
@@ -35,12 +37,12 @@ Build an Intelligent pipeline that can segregate patient conversations from the 
 Please find the dataset at http://hck.re/pnsNa4. 
 
 ### Description of attributes in dataset is given below.
-#### Source    -        Type of Social Media Post
-#### Host      -        Domain of Social Media Post
-#### Link      -        Complete URL of post
-#### Date      -        Date of Post
-#### Time      -        time Stamp of Post in Eastern Time
-#### Time(GMT) -        time Stamp of Post in GMT
-#### Title     -        Title of the Post
-#### TRANS_CONV_TEXT -  Actual Text Conversation of the Post
-#### Patient_Tag   -    Patient Flag (1= Patient, 0=Non-Patient)
+###### Source    -        Type of Social Media Post
+###### Host      -        Domain of Social Media Post
+###### Link      -        Complete URL of post
+###### Date      -        Date of Post
+###### Time      -        time Stamp of Post in Eastern Time
+###### Time(GMT) -        time Stamp of Post in GMT
+###### Title     -        Title of the Post
+###### TRANS_CONV_TEXT -  Actual Text Conversation of the Post
+###### Patient_Tag   -    Patient Flag (1= Patient, 0=Non-Patient)
