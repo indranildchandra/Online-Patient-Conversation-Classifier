@@ -1,5 +1,5 @@
-# online-patient-conversation-classifier
-Online-patient-conversation-classifier can segregate patient conversations from the rest of the group given historically tagged patient data.
+# Online-Patient-Conversation-Classifier
+Online-Patient-Conversation-Classifier can segregate patient conversations from the rest of the group given historically tagged patient data.
 
 
 # Approach
@@ -34,7 +34,8 @@ The Social Listening team has to manually validate heart failure related convers
 
 Build an Intelligent pipeline that can segregate patient conversations from the rest of the group given historically tagged patient data. You are expected to build an algorithm where they can ingest the social data and get the patient tags - 1 if patient and 0 if not a patient. 
 
-Please find the dataset at http://hck.re/pnsNa4. 
+# Dataset
+Dataset was provided by Hackerank for a coding contest. Please find the dataset at http://hck.re/pnsNa4. 
 
 ### Description of attributes in dataset is given below.
 ###### Source    -        Type of Social Media Post
